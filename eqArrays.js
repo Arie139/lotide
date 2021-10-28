@@ -6,6 +6,14 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const head = function(someArray){
-  return console.log(someArray[0]);
-}
+const eqArrays = function(someArray1,someArray2) {
+  for (let i = 0; i < someArray1.length; i++){
+    for (let j = 0; j < someArray2.length; j++){
+      if (someArray1[i] === someArray2[j]){
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+};
