@@ -33,4 +33,3 @@ const without = function(anArray1,anArray2) {
     }
   }    
 }
-console.log(without([1, 2, 3], [1]));

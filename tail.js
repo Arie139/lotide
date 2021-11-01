@@ -17,6 +17,3 @@ const tail = function(someArray1) {
     return someArray1.slice(1);
   }
 };
-
-assertEquals("Lighthouse Labs", "Bootcamp");
-assertEquals(1, 1);
