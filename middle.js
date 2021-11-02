@@ -16,3 +16,4 @@ const middle = function(array) {
       return midEven(array);
   }
 }
+module.exports = {middle, midOdd, midEven};
